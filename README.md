@@ -15,7 +15,8 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
    
 3. Navigate to the project folder in Terminal or PowerShell and run the following command: (It can be operated in more different combinations.)
 
-   __A.__  
+   __A.__
+     
    python input_file output_format
 
    _for example:_
@@ -23,6 +24,7 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
    python example.txt txt
 
    __B.__
+   
    python manuel_DNA_sequance
 
    _for example:_
@@ -33,6 +35,7 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
    MRSRYGS
 
    __C.__
+   
    python manuel_DNA_sequence output_format
 
    _for example:_
