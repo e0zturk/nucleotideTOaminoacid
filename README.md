@@ -1,4 +1,4 @@
-# nucleotideTOaminoacidSBT
+# nucleotideTOaminoacid
 Have you got an own nucleotide sequence? don't worry! By means of this repository, your nucleotide/dna sequence will be translated into an amino acid sequence. You can choose whichever of chosen format for output (txt,fasta)...
 
 # requirements
