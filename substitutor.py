@@ -34,7 +34,7 @@ if prechecked is None:
 else:
     dnasequence = prechecked.replace("U", "T")
 
-referance = Path("Codon-Amino Acid Abbreviations.tsv")
+referance = Path("codonabbreviations.tsv")
 
 with open(referance, "r") as Abb:
     abbreviations = Abb.readlines()
