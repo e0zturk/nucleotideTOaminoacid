@@ -20,7 +20,7 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
 
    __A.__
      
-   python input_file output_format
+   >python input_file output_format
 
    _for example:_
 
@@ -28,7 +28,7 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
 
    __B.__
    
-   python manuel_DNA_sequance
+   >python manuel_DNA_sequance
 
    _for example:_
 
@@ -39,7 +39,7 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
 
    __C.__
    
-   python manuel_DNA_sequence output_format
+   >python manuel_DNA_sequence output_format
 
    _for example:_
 
