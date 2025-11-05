@@ -43,11 +43,13 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
 # Possible Errors and Notes
  
 1. __Missing input argument__
+   
    If you run the script without providing an input file or sequence, Python will raise:
    IndexError: list index out of range
    ->Always provide at least one argument (a sequence string or a file path).
 
-2. __Unsupported file extension__   
+3. __Unsupported file extension__
+     
    Only .txt, .fasta, or .fa files are processed as sequence files. Any other extension will be treated as a raw sequence string.
    Invalid characters in sequence
    If the sequence contains characters other than A, T, G, C, U, the program prints:
@@ -57,18 +59,22 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
    Sequence validation failed.
    Please provide a valid DNA/RNA sequence (only A, T, G, C, U allowed).
 
-3. __Missing codon table file__
+4. __Missing codon table file__
+   
    If codonabbreviations.tsv is not present in the same directory, you will get:
 
    FileNotFoundError: [Errno 2] No such file or directory: 'codonabbreviations.tsv'
 
-4. __Incomplete codon at the end of sequence__
+5. __Incomplete codon at the end of sequence__
+   
    If the sequence length is not divisible by 3, the last 1–2 nucleotides will be translated as  (unknown amino acid).
 
-5. __Unknown codon__
+6. __Unknown codon__
+    
    Any codon not found in the reference table is translated as .
 
-6. __Output file option not specified__
+7. __Output file option not specified__
+    
    If you don’t provide a second argument ( or ), the translation will only be printed to the console and no file will be saved.
 
    
