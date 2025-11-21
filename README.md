@@ -10,7 +10,7 @@ Have you got an own nucleotide sequence? don't worry! By means of this repositor
 
 2. **Note the definitions:** _(These definitions have been used in Section 4.)_
 
-   __code.py__: the main code you run within the repository. 
+   __code.py__ : the main code you run within the repository. 
   
    __input_file__ : A file in text or fasta format containing your DNA/nucleotide sequences
    
